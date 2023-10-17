@@ -201,12 +201,30 @@ select {
 
 /* Dropdown styles */
 .blog-author {
+    padding-bottom: 0em;
+    padding-left: 0em;
+    text-align: center;
+    margin: 0.9em 0 -0.2em;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.blog-uni {
     padding-bottom: 1em;
     padding-left: 0em;
     text-align: center;
-    margin: 0.75em 0;
+    margin: 0.1em 0 -1.2em;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 18px;
+}
+
+.blog-mark {
+    padding-bottom: 1em;
+    padding-left: 0em;
+    text-align: center;
+    margin: 0.1em 0 2.0em;
+    font-weight: 600;
+    font-size: 15px;
 }
 
 .myhead {
@@ -435,3 +453,33 @@ bib {
     font-family: 'Courier New';
     font-size: 16px;
 }
+
+.custom-break {
+    height: 0;
+    margin: 0.5em 0;  /* Adjust this value to control the break size */
+}
+
+.custom-reduce {
+    height: 0;
+    margin: -3.5em 0;  /* Adjust this value to control the break size */
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  .column {
+    flex: 50%;
+    padding: 0 20px; /* Add 20 pixels of padding to the left and right */
+    box-sizing: border-box; /* Include padding in the column width */
+  }
+  
+  /* Responsive layout - makes the columns stack on top of each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      margin-top: 0;
+    }
+  }
