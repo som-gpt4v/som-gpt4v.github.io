@@ -96,7 +96,7 @@
                 visual grounding abilities of large multimodal models (LMMs), such as GPT-4V. 
             </p>
             <br>
-            <img src="website/img/teaser.png" alt="Image" style="width:80%; display: block; margin: 0 auto;"">
+            <img src="website/img/teaser.png" alt="Image" style="width:90%; display: block; margin: 0 auto;"">
 
         </section>
         <br>
@@ -126,13 +126,16 @@
                 <div class="row">
                     <div class="column">
                         <div class="message user">
-                            <p>Can you list the categories of each mark with spatial identifier?
-                                <br>
-                                <img src="website/img/gpt4v-bake.jpg" alt="Image" style="width:60%;">
-                            </p>
+                            <img src="website/img/gpt4v-bake.jpg" alt="Image" style="width:100%;">
                         </div>
+                        <div class="message user">
+                            <p><b>User: </b><br>
+                                Can you list the categories of each mark with spatial identifier?
+                            </p>
+                        </div>            
                         <div class="message assistant">
-                            <p> GPT4-V: <br>
+                            <p><b>GPT4-V:</b>
+                            <br><br>
                             Of course! Here's a list of the marked items based on the image you provided, identified by the numbers and letters you've drawn: <br>
                             (1) - A potted plant. <br>
                             (2) - Grapes on the grill. <br> 
@@ -149,15 +152,17 @@
                     </div>
                     <div class="column">
                         <div class="message user">
-                            <p>Can you list the categories of each mark with spatial identifier?
-                                <br>
-                                <!-- <img src="website/img/gpt4v-bake-som-input.png" alt="Image" style="width:60%;"> -->
-                                <img src="website/img/gpt4v-bake-som.png" alt="Image" style="width:60%;">
-                            </p>
+                            <img src="website/img/gpt4v-bake-som.png" alt="Image" style="width:100%;">
                         </div>
+                        <div class="message user">
+                            <p><b>User: </b><br>
+                                Can you list the categories of each mark with spatial identifier?
+                            </p>
+                        </div>                        
                         <div class="message assistant2">
                             <p>
-                            GPT-4V (SoM): <br>
+                            <b>GPT-4V (SoM):</b> 
+                            <br><br>
                             Certainly! Here's a breakdown of the objects in the image based on the spatial identifiers: <br>
 
                             1. Table surface (with some liquid spill) <br>
@@ -185,13 +190,20 @@
                 <div class="row">
                     <div class="column">
                         <div class="message user">
-                            <p>What is in this dish?
-                                <img src="website/img/dish_lemon.jpeg" alt="Image" style="width:60%;">
-                            </p>
+                            <img src="website/img/dish_lemon.jpeg" alt="Image" style="width:100%;">
                         </div>
+                        <div class="message user">
+                            <p>
+                                <b>User:</b><br>
+                                What is in this dish?
+                            </p>
+                        </div>                        
                         <div class="message assistant">
-                            <p>GPT4-V: <br>
-                                The dish appears to feature: <br>
+                            <p>
+                            <b>GPT4-V</b>: 
+                            <br>
+                            <br>
+                            The dish appears to feature: <br>
                             &#183; A grilled or pan-seared fish fillet, which looks like it could be a type of white fish,
                                 possibly
                                 sea bass, cod, or halibut. 
@@ -206,13 +218,19 @@
                     </div>
                     <div class="column">
                         <div class="message user">
-                            <p>What is in this dish?
-                                <img src="website/img/dish_som.jpg" alt="Image" style="width:60%;">
+                            <img src="website/img/dish_som.jpg" alt="Image" style="width:100%;">
+                        </div>
+                        <div class="message user">
+                            <p>
+                                <b>User:</b><br>
+                                What is in this dish?
                             </p>
-                        </div>                        
+                        </div>                          
                         <div class="message assistant2">
                             <p>
-                            GPT-4V (SoM): <br>
+                            <b>GPT-4V (SoM):</b>
+                            <br>
+                            <br>
                             Here's a description of the items in the dish: <br>
                             1. Fish Fillet: The main component of the dish appears to be a fillet of fish, likely grilled or pan-seared. <br>
                             2. Lemon Wedge: A common accompaniment with fish dishes to enhance flavor when squeezed over the top. <br>
@@ -230,6 +248,68 @@
 
                 <!-- Add more dialogues here as desired -->
             </div>
+
+            <div class="chat-container">
+                <h5><b>GPT-4V (left) v.s. GPT-4V + SoM (right):</b></h5>
+                <div class="row">
+                    <div class="column">
+                        <div class="message user">
+                            <img src="website/img/foods.jpg" alt="Image" style="width:100%;">                               
+                        </div>
+                        <div class="message user">                   
+                            <p>
+                                <b>User:</b> 
+                                <br>
+                                I am on a diet, what are the top things I should avoid eating?
+                            </p>                            
+                        </div>                        
+                        <div class="message assistant">
+                            <p>
+                            <b>GPT4-V:</b>
+                            <br>
+                            <br>
+                            If you're on a diet, it would depend on the specific type of diet you're following. However, based on the image you provided, here are some common items that many diets might limit or avoid: <br>
+                            &#183; Burgers: Especially if made with high-fat meats or served with cheese and mayonnaise. <br>
+                            &#183; Fries: Deep-fried foods are typically high in calories and unhealthy fats. <br>
+                            &#183; Chips: Can be high in salt and fats, especially if they're commercially produced. <br>
+                            &#183; Onion rings: Another deep-fried item. <br>
+                            &#183; Sandwiches with white bread: Many diets recommend whole grains over refined grains. <br>
+                            &#183; Processed meats: Like the ham in the sandwich, as they can be high in sodium and preservatives. <br>
+                            &#183; Sauces: Some can be high in sugar, sodium, or unhealthy fats. <br>
+                            &#183; Soft drinks or sweetened beverages: High in sugars and empty calories. <br>
+                            Always consult with a nutritionist or dietician to get guidance tailored to your specific needs and health goals. They can provide recommendations based on your diet and personal health objectives.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="message user">
+                            <img src="website/img/foods_som.jpg" alt="Image" style="width:100%;">                               
+                        </div>
+                        <div class="message user">                   
+                            <p>
+                                <b>User:</b> 
+                                <br>
+                                I am on a diet, what are the top things I should avoid eating?
+                            </p>                            
+                        </div>                                                   
+                        <div class="message assistant2">
+                            <p>
+                            <b>GPT-4V (SoM):</b>
+                            <br>
+                            <br>
+                            Based on the typical diet considerations, here are the top items from the provided image that you should most likely avoid or limit: <br>
+                            1. <b>Onion rings (1 and 11)</b> - Fried foods like these are often high in unhealthy fats and calories. <br>
+                            2. <b>Fries (8)</b> - Another fried item that can be calorie-dense and contain unhealthy fats. <br>
+                            3. <b>Burgers (3 and 5)</b> - Depending on their composition, they can be high in calories, unhealthy fats, and may contain processed meats. <br>
+                            4. <b>Processed meats (2 and 15)</b> - These can be high in sodium, unhealthy fats, and other additives. <br>
+                            5. <b>Chips (16)</b> - Typically high in unhealthy fats and can be calorie-dense.: There is a yellowish sauce or broth on the plate. <br>
+
+                            While indulging occasionally is okay, it's best to consume these items in moderation if you're trying to maintain a healthy diet.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Add more dialogues here as desired -->
+            </div>            
         </section>
 
         <section id="results">
