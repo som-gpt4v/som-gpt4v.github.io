@@ -105,14 +105,6 @@
             <h2>SoM ToolBox </h2>
                 <p style="padding-left: 30px; padding-right: 30px;">We provide a SoM ToolBox to help you generate SoM prompts and visualize the results.
             </p>
-            <!-- <div class="code-box">
-                <code>
-                    <p style="color: gray; font-family: 'Courier New', Courier, monospace;"># Example Prompts:</p>
-                    - Can you predict what is in region 10? <br>
-                    - Can you predict what is in region 10?
-                </code>
-            </div> -->
-
             <div class="container is-max-desktop" id="gradio">
                 <gradio-app src="http://semantic-sam.xyzou.net:6082/"></gradio-app>
             </div>
@@ -120,8 +112,62 @@
 
         <section id="examples">
             <h2>Examples </h2>
-            <p style="padding-left: 30px; padding-right: 30px;">We show some examples of SoM prompts and the corresponding results from GPT-4V.
-            </p>            
+            <p style="padding-left: 30px; padding-right: 30px;">We show some examples of SoM prompts and the corresponding results from GPT-4V.</p>
+
+            <div class="chat-container">
+                <h5><b>Compare with Interactive GPT4-V:</b></h5>
+                <div class="row">
+                    <div class="column">
+                        <div class="message user">
+                            <p>Can you list the categories of each mark with spatial identifier?
+                                <img src="website/img/gpt4v-bake.jpg" alt="Image" style="width:40%;">
+                            </p>
+                        </div>
+                        <div class="message assistant">
+                            <p> GPT4-V: Of course! Here's a list of the marked items based on the image you provided, identified by the numbers and letters you've drawn: <br>
+                            (1) - A potted plant. <br>
+                            (2) - Grapes on the grill. <br> 
+                            (3) - Red chili or pepper. <br>
+                            (4) - Another potted plant. <br>
+                            (5) - An item which looks like a pitcher or jug. <br>
+                            (6) - A piece of raw meat (possibly steak) on a stick. <br>
+                            (7) - Cooked meat. <br>
+                            (a) - A bowl filled with grapes. <br>
+                            (b) - Grill mesh/cover. <br>
+                            Let me know if you need more details about any specific item!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="message user">
+                            <p>Can you list the categories of each mark with spatial identifier?
+                                <img src="website/img/gpt4v-bake-som-input.jpg" alt="Image" style="width:40%;"><img src="website/img/gpt4v-som-bake.jpg" alt="Image" style="width:40%;">
+                            </p>
+                        </div>
+                        <div class="message assistant2">
+                            <p>
+                            Certainly! Here's a breakdown of the objects in the image based on the spatial identifiers: <br>
+
+                            1. Table surface (with some liquid spill) <br>
+                            2. Purple bowl (with two different sections numbered as 2) <br>
+                            3. Pink container with a dipping sauce and a wooden stick <br>
+                            4. Grilled items (appear to be seafood, possibly eel or a similar fish) <br>
+                            5. Potted plant <br>
+                            6. Gray cup or mug <br>
+                            7. Grill with hot coals <br>
+                            10. Cluster of grapes on the grill <br>
+                            11. Packaged food item (possibly meat) <br>
+                            12. Lavender or similar herb in a purple pot <br>
+                            13. Bowl of green grapes <br>
+                            14. Outdoor setting with trees and railing <br>
+                            15. Single red grape on the grill <br>
+
+                            I hope this helps! If you have any other questions, feel free to ask.                        </div>
+                            </p>
+
+                    </div>
+                </div>            
+
             <div class="chat-container">
                 <div class="row">
                     <div class="column">
